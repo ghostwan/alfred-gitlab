@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.lukewaite.alfred-gitlab</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>07D583FC-AFE3-47D1-8076-FF78BE066E4E</key>
@@ -24,19 +26,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8CEA566D-1206-4BCD-B4B6-98744ED00ACB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>26503076-7E71-48DF-BF35-88CBED38F543</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CA4D035A-9ECF-4080-A991-B5265DBBAD37</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -140,7 +129,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>26503076-7E71-48DF-BF35-88CBED38F543</string>
+				<string>CA4D035A-9ECF-4080-A991-B5265DBBAD37</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -152,11 +141,11 @@
 				<key>destinationuid</key>
 				<string>351629D0-4BED-4019-8E7E-151E71545F00</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 	</dict>
@@ -210,25 +199,6 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>CA4D035A-9ECF-4080-A991-B5265DBBAD37</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{var:quick_open}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>true</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>26503076-7E71-48DF-BF35-88CBED38F543</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -291,7 +261,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Pipelines","arg":"pipelines"},{"title":"Overview"},{"title":"Issues","arg":"issues"},{"title":"Merge Request","arg":"merge_requests"}]</string>
+				<string>[{"title":"Overview"},{"title":"Pipelines","arg":"pipelines"},{"title":"Merge Request","arg":"merge_requests"},{"title":"New Merge Request","arg":"merge_requests\/new"},{"title":"Releases","arg":"-\/releases"},{"title":"Tags","arg":"tags"},{"title":"Issues","arg":"issues"}]</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -524,13 +494,6 @@
 			<key>ypos</key>
 			<real>510</real>
 		</dict>
-		<key>26503076-7E71-48DF-BF35-88CBED38F543</key>
-		<dict>
-			<key>xpos</key>
-			<real>260</real>
-			<key>ypos</key>
-			<real>130</real>
-		</dict>
 		<key>351629D0-4BED-4019-8E7E-151E71545F00</key>
 		<dict>
 			<key>xpos</key>
@@ -604,9 +567,9 @@
 		<key>CC12EF8B-97E2-4DA6-989E-6E766336576D</key>
 		<dict>
 			<key>xpos</key>
-			<real>70</real>
+			<real>65</real>
 			<key>ypos</key>
-			<real>150</real>
+			<real>160</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -614,7 +577,7 @@
 	<key>variables</key>
 	<dict>
 		<key>quick_open</key>
-		<string>true</string>
+		<string></string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>

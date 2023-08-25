@@ -12,10 +12,7 @@ Quickly navigate to GitLab projects in [Alfred 3][alfred].
 
 ### Sub-Page Navigation
 ![][sub-page]
-After selecting a repository, you are prompted with a page to navigate to. You can disable this behaviour
-by setting the `quick_open` workflow variable to `true`.
-
-See the Alfred documentation on [Workflow variables][wf-vars] for more information on how to configure workflow variables.
+After selecting a repository, enter or click on it to see its overview page, if instead you CMD-ENTER you will see the sub-page action.
 
 ## Notes
 By default, we will only show projects which you are a member of.
@@ -36,5 +33,5 @@ All other code/media are released under the [MIT Licence][license].
 [alfred-workflow]: http://www.deanishe.net/alfred-workflow/
 [wf-vars]: https://www.alfredapp.com/help/workflows/advanced/variables/
 [license]: src/LICENSE.txt
-[sample]: https://raw.github.com/lukewaite/alfred-gitlab/master/docs/sample.png
-[sub-page]: https://raw.github.com/lukewaite/alfred-gitlab/master/docs/sub-page.png
+[sample]: docs/sample.png
+[sub-page]: docs/sub-page.png
